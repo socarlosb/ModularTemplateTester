@@ -1,0 +1,13 @@
+ /*take flexbox notes */
+/*
+ToDo:
+- search for a cool google font
+- get a way to let ppl choose a font (need a font field)
+*/
+
+/* css page clean*/
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
