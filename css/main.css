@@ -5,9 +5,62 @@ ToDo:
 - get a way to let ppl choose a font (need a font field)
 */
 
-/* css page clean*/
+/* css page clean/reset */
 * {
   margin: 0;
   border: 0;
   padding: 0;
+  font-family: verdana; /* change this font latter */
+}
+/* main page wrapper */
+body{
+  background: #eee;
+}
+.wrapper{
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+/* navigation */
+
+
+/* navbar menu links */
+.navLinks{
+  background: #333;
+}
+.navLinks ul{
+  list-style-type: none;
+  padding: 0;
+}
+.navLinks a{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  background-color: #777;
+}
+.navLinks a:hover{
+  background-color: #555;
+}
+
+/* flex styles*/
+@media screen and (min-width: 768px) {
+  nav{
+    display: flex;
+  }
+  .navLogo{
+    flex: 1;
+  }
+  .navLinks{
+    flex:1;
+  }
+  nav ul{
+    display: flex;
+    justify-content:space-around;
+  }
+  nav ul li{
+    flex: 1 1 0;
+  }
+
 }
